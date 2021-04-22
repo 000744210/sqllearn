@@ -1,0 +1,1 @@
+(self.webpackChunksqlitelearn=self.webpackChunksqlitelearn||[]).push([[518],{518:function(e,t,n){"use strict";n.r(t),t.default={question:"Show unique birth years and order them by ascending.",solution:"SELECT distinct year(birth_date) FROM patients order by birth_date;",validator:function(e,t,n){return!0}}}}]);
