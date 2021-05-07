@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --open --hot",
-    "build": "node ./create_paths.js && cross-env NODE_ENV=production webpack --progress"
+    "build": "node ./create_paths.js && cross-env NODE_ENV=production webpack --progress",
+    "publish": "git add . && git commit -m\"sh\" && git push origin master"
   },
   "dependencies": {
     "@babel/core": "^7.0.0",

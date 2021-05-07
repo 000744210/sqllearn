@@ -1,5 +1,17 @@
 var fs = require('fs');
 
+function getDateAsYYYYMMDD() {
+  const date = new Date();
+
+  const yyyy = date.getFullYear();
+  const mm = String(date.getMonth() + 1).padStart(2, "0"); // month is zero-based
+  const dd = String(date.getDate()).padStart(2, "0");
+
+
+  const formatted = `${yyyy}-${mm}-${dd}`;
+  return formatted;
+}
+
 var paths = ['/learn/select-statement',
     '/learn/update-statement',
     '/learn/delete-statement',
@@ -26,25 +38,10 @@ var paths = ['/learn/select-statement',
     // FUNCTIONS
     // STRING
     
-    '/learn/function/ascii',
-    '/learn/function/char',
-    '/learn/function/charindex',
+
     '/learn/function/concat',
-    '/learn/function/datalength',
-    '/learn/function/difference',
     '/learn/function/len',
     '/learn/function/lower',
-    '/learn/function/ltrim',
-    '/learn/function/nchar',
-    '/learn/function/replace',
-    '/learn/function/replicate',
-    '/learn/function/reverse',
-    '/learn/function/rtrim',
-    '/learn/function/str',
-    '/learn/function/stuff',
-    '/learn/function/substring',
-    '/learn/function/trim',
-    '/learn/function/unicode',
     '/learn/function/upper',
     
     // NUMERIC
@@ -60,11 +57,8 @@ var paths = ['/learn/select-statement',
     
     // MATH
     '/learn/function/abs',
-    '/learn/function/exp',
     '/learn/function/power',
-    '/learn/function/sign',
     '/learn/function/sqrt',
-    '/learn/function/square',
 
     // DATES
     '/learn/function/current_timestamp',
@@ -87,9 +81,6 @@ var paths = ['/learn/select-statement',
     '/learn/table/auto_increment',
     '/learn/table/index',
     
-    // OTHER INFOMATION
-    '/learn/date_standardized',
-    '/learn/patterns',
 ]
 if (fs.existsSync('./learn')) {
   fs.rmdirSync('./learn', {recursive: true})
@@ -101,6 +92,32 @@ for(var i = 0;i<paths.length;i++){
 
   });
 }
+
+var siteMap = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://www.sql-practice.com/</loc>
+    <lastmod>${getDateAsYYYYMMDD()}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>    
+  </url>`;
+
+for(var i = 0;i<paths.length;i++){
+  var path = paths[i];
+
+  siteMap+= `
+  <url>
+    <loc>https://www.sql-practice.com${path}</loc>
+    <lastmod>${getDateAsYYYYMMDD()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>`
+}
+
+siteMap += `\n</urlset>`
+
+fs.writeFileSync('./sitemap.xml',siteMap,{encoding:'utf8',flag:'w'})
+
+
 setTimeout(function(){
   for(var i = 0;i<paths.length;i++){
     var path = paths[i];
