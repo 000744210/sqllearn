@@ -34,7 +34,7 @@ var paths = ['/learn/select-statement',
     '/learn/query/ifnull',
     '/learn/query/null_values',
     '/learn/query/aliases',
-    
+    '/learn/query/operators',
     // FUNCTIONS
     // STRING
     
