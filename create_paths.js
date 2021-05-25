@@ -12,7 +12,11 @@ function getDateAsYYYYMMDD() {
   return formatted;
 }
 
-var paths = ['/learn/select-statement/',
+var paths = [
+  '/support/',
+  '/question_form/',
+  
+  '/learn/select-statement/',
     '/learn/update-statement/',
     '/learn/delete-statement/',
     '/learn/insert-statement/',
@@ -85,6 +89,13 @@ var paths = ['/learn/select-statement/',
 if (fs.existsSync('./learn')) {
   fs.rmdirSync('./learn', {recursive: true})
 }
+if (fs.existsSync('./support')) {
+  fs.rmdirSync('./support', {recursive: true})
+}
+if (fs.existsSync('./question_form')) {
+  fs.rmdirSync('./question_form', {recursive: true})
+}
+
 for(var i = 0;i<paths.length;i++){
   var path = paths[i];
 
