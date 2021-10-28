@@ -27,6 +27,7 @@
     "vue-nav-tabs": "^0.5.7",
     "vue-resize-split-pane": "^0.1.5",
     "vue-scrolling-table": "^1.0.3",
+    "vue-share-buttons": "^1.1.0",
     "vue-simple-accordion": "^0.1.0"
   },
   "browserslist": [
