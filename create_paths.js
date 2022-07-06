@@ -15,7 +15,7 @@ function getDateAsYYYYMMDD() {
 var paths = [
   '/support/',
   '/question_form/',
-  
+  '/settings/',
   '/learn/select-statement/',
     '/learn/update-statement/',
     '/learn/delete-statement/',
