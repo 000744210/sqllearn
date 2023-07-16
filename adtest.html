@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>
+    window.googletag = window.googletag || { cmd: [] };
+    googletag.cmd.push(function () {
+
+      googletag.pubads().disableInitialLoad();
+      googletag.pubads().enableSingleRequest();
+      googletag.pubads().collapseEmptyDivs();
+      googletag.enableServices();
+
+    });    
+  </script>
+  <script async src="https://stpd.cloud/saas/3586"></script>
+</head>
+<body>
+  <div id="adContainer">
+
+  </div>
+  <script>
+    setTimeout(()=>{
+      // Simulate the ad unit being loaded in 5 seconds after the page loads.
+      // This is using the ad code from https://gist.github.com/Sandzhaar/143e818dbc6ec435700873267f3c85f9/d02d25c134adcd26a82375ee8f51922ad9909389
+      
+      // This code just builds the div + script tag for the body portion of the ad code and appends it to #adContainer
+      
+      sql_practice_ad_div = document.createElement("div")
+      sql_practice_ad_div.setAttribute("id","sql-practice_com_300x600_left_desktop")
+
+      var scriptNode = document.createElement('script');
+      scriptNode.innerHTML = `
+            console.log("Script tag loaded")
+            googletag.cmd.push(function() { 
+                console.log("cmd.push processed") 
+                if(window.innerWidth > 1000) {
+                  console.log("defined adSlot")
+                  googletag.defineSlot('/147246189,22648102065/sql-practice.com_300x600_left_desktop', [[300,600],[160,600],[300,250],[300,300]], 'sql-practice_com_300x600_left_desktop').addService(googletag.pubads());            
+                }
+                console.log("display")
+                googletag.display('sql-practice_com_300x600_left_desktop'); 
+                
+                console.log("init")
+                stpd.initializeAdUnit('sql-practice_com_300x600_left_desktop');
+            });`;
+      
+      sql_practice_ad_div.appendChild(scriptNode)
+      document.getElementById("adContainer").appendChild(sql_practice_ad_div)
+       
+
+    },5000)
+  </script>
+</body>
+</html>
