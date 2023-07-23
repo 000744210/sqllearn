@@ -18,6 +18,7 @@
     "@types/file-saver": "^2.0.5",
     "@vue/composition-api": "^1.7.1",
     "chart.js": "^2.9.4",
+    "core-js": "^3.31.1",
     "file-saver": "^2.0.5",
     "fs": "0.0.1-security",
     "gridjs": "^3.4.0",
