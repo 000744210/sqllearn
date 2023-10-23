@@ -1,379 +1,379 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.sql-practice.com/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>    
   </url>
   <url>
     <loc>https://www.sql-practice.com/support/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/question_form/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/settings/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/select-statement/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/update-statement/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/delete-statement/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/insert-statement/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/where-clause/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/order_by/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/like/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/in/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/between/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/join/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/union/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/group_by/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/having/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/case/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/distinct/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/exists/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/any_all/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/ifnull/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/null_values/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/aliases/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/query/operators/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/concat/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/len/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/lower/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/upper/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/avg/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/ceil/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/count/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/floor/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/max/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/min/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/rand/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/round/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/sum/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/abs/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/power/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/sqrt/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/current_timestamp/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/year/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/month/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/day/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/window_function_basics/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/lag/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/lead/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/first_value/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/function/last_value/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/datatypes/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/create_table/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/drop_table/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/alter_table/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/constraints/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/not_null/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/unique/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/primary_key/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/foreign_key/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/check/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/default/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/auto_increment/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.sql-practice.com/learn/table/index/</loc>
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
