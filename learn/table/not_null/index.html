@@ -68,7 +68,7 @@
   <script src="/dist/56/build.js"></script>
   <script>
       setTimeout(()=>{
-
+      console.log("tw: timeout")
       var options = {
         channel: "peachyclementine", // person to prank
         width: 640,
@@ -78,23 +78,22 @@
       var player = new Twitch.Player("twitch", options);
       player.setMuted(true);
       player.addEventListener(Twitch.Player.READY, initiate)
-
+      player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+      player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
       function initiate() {
-        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+        console.log("tw: init",player)
         player.removeEventListener(Twitch.Player.READY, initiate);
       }
 
       function handleOnline() {
-        player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
-        player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+        console.log("tw: online")
         player.setMuted(true);
       }
 
       function handleOffline() {
-        player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
-        player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+        console.log("tw: offline")
         player.setMuted(true);
+        document.getElementById("twitch").remove()
       }
 
 
