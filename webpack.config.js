@@ -2,7 +2,7 @@ var path = require('path')
 var webpack = require('webpack')
 //const CopyPlugin = require("copy-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
-let version = 56
+let version = 57
 let buildPath = "/dist/" + version + "/";
 module.exports = {
   entry: "./src/main.js",
