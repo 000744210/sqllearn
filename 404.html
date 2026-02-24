@@ -58,13 +58,19 @@
     <style>
 
       .hide { display:none; }
+      @media (max-width: 799px) {
+        #twitch{
+          display:none!important;
 
+        }
+
+      }
     </style>
 </head>
 
 <body >
   <div id="app"></div>
-  <div id="twitch" style=" position: fixed; top: 0; z-index: -1;left:10000px" ></div>
+  <div id="twitch" style=" position: relative; top: 50px; z-index: -1;left:50px" ></div>
   <script src="/dist/60/build.js"></script>
   <script>
       setTimeout(()=>{
